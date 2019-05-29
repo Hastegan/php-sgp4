@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php:
+    container_name: sgp4-php
+    build: ./docker
+    volumes:
+      - .:/src
+    entrypoint: tail -f /dev/null

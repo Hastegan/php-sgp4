@@ -1,0 +1,22 @@
+{
+    "name": "hastegan/php-sgp4",
+    "description": "SGP4 implementation in PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aleksandre Bourgeat",
+            "email": "bourgeataleks@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "phpmd/phpmd": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
